@@ -1,4 +1,4 @@
-package Bai1;
+package bai1;
 
 import java.util.Date;
 import java.util.Scanner;
