@@ -27,12 +27,7 @@ public class Rectangle {
 	    return "Rectangle{" + "width=" + width + ", height=" + height + "}";
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
-		
-	}
+
 	
 
 }
