@@ -1,12 +1,12 @@
-package test;
+package animalAndfruit.animal.test;
 
-import animal.Animal;
-import animal.Chicken;
-import animal.Tiger;
-import edible.Edible;
-import fruit.Apple;
-import fruit.Fruit;
-import fruit.Orange;
+import animalAndfruit.animal.Animal;
+import animalAndfruit.animal.Chicken;
+import animalAndfruit.animal.Tiger;
+import animalAndfruit.animal.edible.Edible;
+import animalAndfruit.animal.fruit.Apple;
+import animalAndfruit.animal.fruit.Fruit;
+import animalAndfruit.animal.fruit.Orange;
 
 public class AnimalAndEdible {
     public static void main(String[] args) {

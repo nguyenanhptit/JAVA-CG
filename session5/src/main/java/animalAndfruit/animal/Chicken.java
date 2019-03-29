@@ -1,6 +1,6 @@
-package animal;
+package animalAndfruit.animal;
 
-import edible.Edible;
+import animalAndfruit.animal.edible.Edible;
 
 public class Chicken extends Animal implements Edible {
     @Override
