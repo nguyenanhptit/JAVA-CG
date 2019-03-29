@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5329278-4701-4a12-be43-6221992e0365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/animal/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/animal/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/edible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/fruit/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/fruit/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/fruit/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session5/src/main/java/test/AnimalAndEdible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cricle/Cricle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/cricle/Cricle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cricle/CricleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/cricle/CricleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/cricle/cylinder/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cylinder/CylinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/cricle/cylinder/CylinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/rectangle/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rectangle/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/rectangle/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/square/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/rectangle/square/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/square/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/rectangle/square/SquareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session5/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d5329278-4701-4a12-be43-6221992e0365" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -51,8 +26,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/shape/rectangle/square/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shape/triangle/TriangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -97,7 +81,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
     <option name="y" value="27" />
     <option name="width" value="709" />
@@ -134,6 +118,33 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="session4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="session4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="rectangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="session4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+              <item name="rectangle" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SquareTest">
+  <component name="RunManager" selected="Application.TriangleTest">
     <configuration name="CylinderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="shape.cricle.cylinder.CylinderTest" />
       <module name="session4.main" />
@@ -255,22 +266,23 @@
       <workItem from="1553822677055" duration="2745000" />
       <workItem from="1553827578035" duration="1113000" />
       <workItem from="1553848132400" duration="516000" />
-      <workItem from="1553851691866" duration="269000" />
+      <workItem from="1553851691866" duration="582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23728000" />
+    <option name="totallyTimeSpent" value="24041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1309" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24782264" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23911323" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -430,7 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/triangle/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/shape/triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="52" selection-start-line="52" selection-end-line="53" />
@@ -453,13 +465,6 @@
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/triangle/TriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -488,10 +493,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shape/triangle/TriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shape/rectangle/square/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
