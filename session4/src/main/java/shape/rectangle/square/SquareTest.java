@@ -1,4 +1,4 @@
-package square;
+package shape.rectangle.square;
 
 public class SquareTest {
     public static void main(String[] args) {

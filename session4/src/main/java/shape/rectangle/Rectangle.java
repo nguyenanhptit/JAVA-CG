@@ -1,4 +1,4 @@
-package rectangle;
+package shape.rectangle;
 
 import shape.Shape;
 

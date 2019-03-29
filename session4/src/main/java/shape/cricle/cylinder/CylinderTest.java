@@ -1,4 +1,4 @@
-package cylinder;
+package shape.cricle.cylinder;
 
 public class CylinderTest {
     public static void main(String[] args) {

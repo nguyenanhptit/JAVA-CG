@@ -1,4 +1,4 @@
-package cricle;
+package shape.cricle;
 
 public class CricleTest {
     public static void main(String[] args) {

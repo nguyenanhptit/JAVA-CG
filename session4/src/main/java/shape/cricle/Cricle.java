@@ -1,4 +1,4 @@
-package cricle;
+package shape.cricle;
 
 import shape.Shape;
 

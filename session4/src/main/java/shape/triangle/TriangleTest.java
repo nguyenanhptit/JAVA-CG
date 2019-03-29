@@ -1,4 +1,4 @@
-package triangle;
+package shape.triangle;
 
 public class TriangleTest {
     public static void main(String[] args) {

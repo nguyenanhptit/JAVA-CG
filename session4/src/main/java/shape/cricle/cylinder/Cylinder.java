@@ -1,6 +1,6 @@
-package cylinder;
+package shape.cricle.cylinder;
 
-import cricle.Cricle;
+import shape.cricle.Cricle;
 
 public class Cylinder extends Cricle {
     private double height = 1.0;

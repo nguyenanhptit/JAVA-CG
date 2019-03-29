@@ -1,4 +1,4 @@
-package triangle;
+package shape.triangle;
 
 import shape.Shape;
 

@@ -1,6 +1,6 @@
-package square;
+package shape.rectangle.square;
 
-import rectangle.Rectangle;
+import shape.rectangle.Rectangle;
 
 public class Square extends Rectangle {
     public Square() {
