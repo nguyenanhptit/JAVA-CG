@@ -1,4 +1,4 @@
-package animalAndfruit.animal.test;
+package animalAndfruit.test;
 
 import animalAndfruit.animal.Animal;
 import animalAndfruit.animal.Chicken;
