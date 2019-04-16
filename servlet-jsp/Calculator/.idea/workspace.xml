@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JSP-Convert-Dictionary:war exploded" />
+      <artifact name="Calculator:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286f8513-c016-4b11-b819-11244bbadf0e" name="Default Changelist" comment="">
+    <list default="true" id="85315151-b59d-417a-b6ef-73b14a8be764" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/servlet/calculator/ServletCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers_List/src/main/java/customer/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers_List/src/main/java/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers_List/src/main/java/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers_List/src/main/java/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Customers_List/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Product Discount Calculator/src/servlet/discount/DiscountCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-exercise" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +30,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-      </list>
-    </option>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlet/calculator/ServletCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -40,11 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/servlet/calculator/ServletCalculator.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/convert/converter.jsp" />
-        <option value="$PROJECT_DIR$/web/dictionary/translate.jsp" />
-        <option value="$PROJECT_DIR$/web/dictionary/viewdictionary.jsp" />
-        <option value="$PROJECT_DIR$/web/dictionary/dictionary.jsp" />
       </list>
     </option>
   </component>
@@ -62,38 +79,25 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="27" />
-    <option name="width" value="669" />
-    <option name="height" value="729" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="274" />
+    <option name="y" value="36" />
+    <option name="width" value="715" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Customers_List" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/convert" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,16 +113,16 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.39" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/JSP_Convert_Dictionary_war_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/Calculator_war_exploded/" />
       <deployment>
-        <artifact name="JSP-Convert-Dictionary:war exploded">
+        <artifact name="Calculator:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/JSP_Convert_Dictionary_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Calculator_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_39_JSP-Convert-Dictionary" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_39_Calculator" />
         <option name="HTTP_PORT" value="8086" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -127,7 +131,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="43859" />
+        <option name="DEBUG_PORT" value="44567" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -177,7 +181,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="JSP-Convert-Dictionary:war exploded" />
+          <artifact name="Calculator:war exploded" />
         </option>
       </method>
     </configuration>
@@ -187,33 +191,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="286f8513-c016-4b11-b819-11244bbadf0e" name="Default Changelist" comment="" />
-      <created>1554868116309</created>
+      <changelist id="85315151-b59d-417a-b6ef-73b14a8be764" name="Default Changelist" comment="" />
+      <created>1554886227203</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554868116309</updated>
-      <workItem from="1554868122934" duration="1224000" />
-      <workItem from="1554869837687" duration="2055000" />
+      <updated>1554886227203</updated>
+      <workItem from="1554886230169" duration="2195000" />
+      <workItem from="1555032577468" duration="922000" />
+      <workItem from="1555042405638" duration="197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3279000" />
+    <option name="totallyTimeSpent" value="3314000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="27" width="669" height="729" extended-state="0" />
+    <frame x="51" y="25" width="1315" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25859493" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1543943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.1543943" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -236,111 +241,58 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" visible="true" weight="0.1543943" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1543943" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.9236884" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/convert/converter.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/dictionary/viewdictionary.jsp">
+    <entry file="file://$PROJECT_DIR$/src/servlet/calculator/ServletCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/convert/viewconvert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/dictionary/dictionary.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JSP-Convert-Dictionary</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

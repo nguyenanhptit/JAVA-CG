@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d48e3525-6115-47dd-be72-b00d4a248a2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../session4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../session6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/Calculator/src/servlet/calculator/ServletCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/CustomersList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/CustomersList/src/com/codegym/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/CustomersList/src/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/CustomersList/src/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/CustomersList/src/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/CustomersList/web/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servlet-jsp/Product Discount Calculator/src/servlet/discount/DiscountCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-method-extraction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-renaming" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-variable-extraction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servlet-jsp/JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet-jsp/JSP-Convert-Dictionary/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -111,7 +115,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="session5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="session5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="session5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="session5" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -258,11 +282,12 @@
       <workItem from="1554188949739" duration="759000" />
       <workItem from="1554688929860" duration="605000" />
       <workItem from="1554717411501" duration="122000" />
+      <workItem from="1554975228867" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15258000" />
+    <option name="totallyTimeSpent" value="15283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1315" height="743" extended-state="6" />

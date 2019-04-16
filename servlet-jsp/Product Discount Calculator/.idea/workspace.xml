@@ -2,37 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JSP-Convert-Dictionary:war exploded" />
+      <artifact name="Product Discount Calculator:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286f8513-c016-4b11-b819-11244bbadf0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-exercise" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-method-extraction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-renaming" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../java-cleancode-refactoring-variable-extraction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletjsp/src/main/java/test/First.java" beforeDir="false" />
+    <list default="true" id="cdbc5f06-5455-4d78-b097-c7a302e9ae40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/servlet/discount/DiscountCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-exercise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,25 +26,35 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-      </list>
-    </option>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlet/discount/DiscountCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/convert/converter.jsp" />
-        <option value="$PROJECT_DIR$/web/dictionary/dictionary.jsp" />
-        <option value="$PROJECT_DIR$/web/dictionary/translate.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/discount/DiscountCalculator.java" />
       </list>
     </option>
   </component>
@@ -82,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="51" />
     <option name="y" value="27" />
     <option name="width" value="669" />
@@ -95,21 +85,39 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Product Discount Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product Discount Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product Discount Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product Discount Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product Discount Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product Discount Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../servlet-jsp/JSP-Convert-Dictionary" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/convert" />
-    </key>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,16 +133,16 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.39" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/JSP_Convert_Dictionary_war_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/Product_Discount_Calculator_war_exploded/" />
       <deployment>
-        <artifact name="JSP-Convert-Dictionary:war exploded">
+        <artifact name="Product Discount Calculator:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/JSP_Convert_Dictionary_war_exploded" />
+            <option name="CONTEXT_PATH" value="/Product_Discount_Calculator_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_39_JSP-Convert-Dictionary" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_39_Product_Discount_Calculator" />
         <option name="HTTP_PORT" value="8086" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -143,7 +151,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="43859" />
+        <option name="DEBUG_PORT" value="36461" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -193,7 +201,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="JSP-Convert-Dictionary:war exploded" />
+          <artifact name="Product Discount Calculator:war exploded" />
         </option>
       </method>
     </configuration>
@@ -203,28 +211,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="286f8513-c016-4b11-b819-11244bbadf0e" name="Default Changelist" comment="" />
-      <created>1554868116309</created>
+      <changelist id="cdbc5f06-5455-4d78-b097-c7a302e9ae40" name="Default Changelist" comment="" />
+      <created>1554872355847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554868116309</updated>
-      <workItem from="1554868122934" duration="1713000" />
+      <updated>1554872355847</updated>
+      <workItem from="1554872358720" duration="4423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1713000" />
+    <option name="totallyTimeSpent" value="4423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="27" width="669" height="729" extended-state="0" />
+    <frame x="51" y="25" width="1315" height="743" extended-state="6" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2167414" />
+      <window_info id="Web" sideWeight="0.5007776" side_tool="true" visible="true" weight="0.12395437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.12395437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Terminal" />
@@ -236,7 +244,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32192847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -256,33 +264,92 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/convert/converter.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/dictionary/dictionary.jsp">
+    <entry file="file://$PROJECT_DIR$/src/servlet/discount/DiscountCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="195">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/dictionary/viewdictionary.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/convert/viewconvert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Product Discount Calculator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
