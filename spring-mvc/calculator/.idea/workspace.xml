@@ -2,47 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="846a7a21-ffcc-4159-bf6f-6b89964f8041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/controller/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/calculator.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../email-valid/src/main/java/email/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../email-valid/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../email-valid/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../email-valid/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../email-valid/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/login/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/login/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/login/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/login/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../time-zone/src/main/java/time/controller/TimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../time-zone/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../time-zone/src/main/webapp/WEB-INF/views/time.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../time-zone/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet-jsp/Product_List/build/libs/Product_List-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../servlet-jsp/Product_List/build/libs/Product_List-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/build/libs/greeting-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/build/libs/greeting-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeting/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../greeting/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/calculator/controller/CalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="206">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/calculator.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="390">
               <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
@@ -159,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,10 +179,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../email-valid" />
@@ -330,16 +294,16 @@
       <option name="presentableId" value="Default" />
       <updated>1555642495122</updated>
       <workItem from="1555642498974" duration="7874000" />
-      <workItem from="1555663158322" duration="3865000" />
+      <workItem from="1555663158322" duration="4464000" />
+      <workItem from="1555897405187" duration="128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11739000" />
+    <option name="totallyTimeSpent" value="12466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1315" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15741445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,7 +315,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,15 +370,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/calculator.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="390">
           <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/calculator/controller/CalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="206">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

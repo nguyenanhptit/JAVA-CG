@@ -2,31 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a105fa-9121-4ce0-8433-d5e94b8fdb90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator/src/servlet/calculator/ServletCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/customer/controller/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/customer/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/customer/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/customer/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product Discount Calculator/src/servlet/discount/DiscountCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/java/product/controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/java/product/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/java/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/java/product/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/webapp/product/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/webapp/product/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/webapp/product/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Product_List/src/main/webapp/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/java/com/customer/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/java/com/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/java/com/customer/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/java/com/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/java/com/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring-mvc/thymeleaf-customer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP-Convert-Dictionary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../session5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc/calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc/calculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc/email-valid/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc/email-valid/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -91,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/customer/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="135">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/customer/controller/CustomerServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="585">
               <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/customer/delete.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="37" selection-start-line="19" selection-end-line="20" />
+            <state relative-caret-position="135">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -198,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,9 +246,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -378,24 +371,25 @@
       <workItem from="1555326372364" duration="11195000" />
       <workItem from="1555377889443" duration="156000" />
       <workItem from="1555383999451" duration="29000" />
+      <workItem from="1555923016296" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15619000" />
+    <option name="totallyTimeSpent" value="15686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="36" width="837" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48892406" visible="true" weight="0.18876942" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.18876942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.511076" side_tool="true" visible="true" weight="0.18876942" />
+      <window_info id="Web" order="7" sideWeight="0.51265824" side_tool="true" visible="true" weight="0.18876942" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33544305" />
@@ -486,7 +480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/customer/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="135">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -496,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/customer/controller/CustomerServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="585">
           <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -520,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/customer/delete.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="37" selection-start-line="19" selection-end-line="20" />
+        <state relative-caret-position="135">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
