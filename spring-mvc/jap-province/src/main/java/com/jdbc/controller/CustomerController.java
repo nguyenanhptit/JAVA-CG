@@ -1,7 +1,9 @@
 package com.jdbc.controller;
 
 import com.jdbc.model.Customer;
+import com.jdbc.model.Province;
 import com.jdbc.service.CustomerService;
+import com.jdbc.service.ProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +16,14 @@ public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private ProvinceService provinceService;
+
+    @ModelAttribute("provinces")
+    public Iterable<Province> provinces(){
+        return provinceService.findAll();
+    }
 
     @RequestMapping(value = "/create-customer", method = RequestMethod.GET)
     public ModelAndView create() {
@@ -29,7 +39,7 @@ public class CustomerController {
         ModelAndView mv = new ModelAndView();
         mv.setViewName("/customer/create");
         mv.addObject("customer", new Customer());
-        mv.addObject("message", " create successful");
+        mv.addObject("message", "create successful!!!");
         return mv;
     }
 

@@ -1,6 +1,7 @@
 package com.jdbc.config;
 
 
+import com.jdbc.format.ProvinceFormatter;
 import com.jdbc.service.CustomerService;
 import com.jdbc.service.ProvinceService;
 import com.jdbc.service.impl.CustomerServiceImpl;
@@ -13,6 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.format.FormatterRegistry;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -57,6 +59,10 @@ public class AppConfig extends WebMvcConfigurerAdapter implements ApplicationCon
         return new ProvinceServiceImpl();
     }
 
+    @Override
+    public void addFormatters(FormatterRegistry registry) {
+        registry.addFormatter(new ProvinceFormatter(applicationContext.getBean(ProvinceService.class)));
+    }
 
     //Thymeleaf Configuration
     @Bean
@@ -93,7 +99,7 @@ public class AppConfig extends WebMvcConfigurerAdapter implements ApplicationCon
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[]{"com.jdbc.model"});
+        em.setPackagesToScan("com.jdbc.model");
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
