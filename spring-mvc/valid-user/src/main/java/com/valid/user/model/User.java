@@ -69,8 +69,8 @@ public class User implements Validator {
             errors.rejectValue("number", "number.startsWith");
         }
 
-//        if(!number.matches("(^$|[0-9]*$)")){
-//        errors.rejectValue("number","number.matches");
-//        }
+        if(!number.matches("(^$|[0-9]*$)")){
+        errors.rejectValue("number","number.matches");
+        }
     }
 }
