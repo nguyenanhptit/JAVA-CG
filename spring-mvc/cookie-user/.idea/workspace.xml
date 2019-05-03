@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e87a8b0-5abb-4fc5-b84e-a3b3f7b080d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookie/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookie/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookie/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cookie/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session-view/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session-view/src/main/java/com/session/comtroller/CounterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session-view/src/main/java/com/session/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session-view/src/main/java/com/session/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session-view/src/main/java/com/session/model/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../session-view/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-method-extraction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-renaming" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-cleancode-refactoring-variable-extraction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../valid-login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../valid-login/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -182,6 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -300,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="30" width="717" height="738" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -321,7 +308,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
