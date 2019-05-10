@@ -25,7 +25,7 @@ public class BlogController {
     private CategoryService categoryService;
 
     @ModelAttribute("categories")
-    public Page<Category> categories(Pageable pageable){
+    public Page<Category> category(Pageable pageable){
         return categoryService.findAll(pageable);
     }
 
