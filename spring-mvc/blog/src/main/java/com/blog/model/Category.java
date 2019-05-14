@@ -11,6 +11,7 @@ public class Category {
     private Long id;
     private String name;
 
+
     @OneToMany(targetEntity = Blog.class)
     private List<Blog> blogs;
 
