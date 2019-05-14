@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -94,14 +95,21 @@ public class CategoryController {
 
 
     @RequestMapping(value = "/delete-category/{id}", method = RequestMethod.GET)
-    public ModelAndView delete(@PathVariable("id") Long id, @ModelAttribute("category") Optional<Category> category) {
+    public ModelAndView delete(@PathVariable("id") Long id, @ModelAttribute("category") Optional<Category> category, Pageable pageable) {
         ModelAndView mv = new ModelAndView();
         category = categoryService.findById(id);
-        categoryService.delete(category.get().getId());
-        mv.setViewName("category/delete");
+        Page<Note> notes = noteService.findAllByCategory(category,pageable);
+        List<Note> note = notes.getContent();
+        if (note.isEmpty()){
+            categoryService.delete(category.get().getId());
+            mv.addObject("msg", "delete successfully !!!");
+
+        }else {
+            mv.addObject("msg","Can't delete cause Category is mapping !!!");
+        }
+        mv.setViewName("redirect:/categories");
         mv.addObject("category", category);
-        mv.addObject("msg", "delete successfully !!!");
-        return new ModelAndView("redirect:/categories");
+        return mv;
     }
 //
 //    @RequestMapping(value = "/delete-category", method = RequestMethod.POST)

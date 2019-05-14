@@ -37,6 +37,6 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public Page<Category> findByName(String name, Pageable pageable) {
-        return null;
+        return categoryRepository.findAllByNameContaining(name,pageable);
     }
 }
