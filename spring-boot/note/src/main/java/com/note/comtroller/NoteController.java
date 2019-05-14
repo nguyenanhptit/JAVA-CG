@@ -24,20 +24,31 @@ public class NoteController {
     private CategoryServiceImpl categoryService;
 
     @ModelAttribute("categories")
-    public Page<Category> categories(Pageable pageable){
+    public Page<Category> categories(Pageable pageable) {
         return categoryService.findAll(pageable);
     }
 
     @RequestMapping(value = "/notes", method = RequestMethod.GET)
-    public ModelAndView list(@RequestParam("search") Optional<String> search, @PageableDefault(value = 5) Pageable pageable) {
+    public ModelAndView list(@RequestParam("search") Optional<String> search,
+                             @RequestParam("cate_id") Optional<Long> cate_id,
+                             @PageableDefault(value = 5) Pageable pageable) {
         ModelAndView mv = new ModelAndView();
+        mv.setViewName("note/list");
         Page<Note> notes;
         if (search.isPresent()) {
             notes = noteService.findByTitleOrContent(search.get(), search.get(), pageable);
         } else {
-            notes = noteService.findAll(pageable);
+            if (cate_id.isPresent()) {
+                Optional<Category> category = categoryService.findById(cate_id.get());
+                notes = noteService.findAllByCategory(category, pageable);
+                mv.addObject("cate_id", cate_id.get());
+            } else {
+                notes = noteService.findAll(pageable);
+            }
         }
-        mv.setViewName("note/list");
+
+
+
         mv.addObject("notes", notes);
         return mv;
     }
@@ -82,7 +93,7 @@ public class NoteController {
 
 
     @RequestMapping(value = "/delete-note/{id}", method = RequestMethod.GET)
-    public ModelAndView delete(@PathVariable("id") Long id,@ModelAttribute("note") Optional<Note> note)  {
+    public ModelAndView delete(@PathVariable("id") Long id, @ModelAttribute("note") Optional<Note> note) {
         ModelAndView mv = new ModelAndView();
         note = noteService.findById(id);
         noteService.delete(note.get().getId());

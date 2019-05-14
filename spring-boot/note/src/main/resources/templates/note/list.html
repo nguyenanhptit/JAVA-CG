@@ -6,16 +6,37 @@
     <meta charset="UTF-8">
     <title>List</title>
 </head>
+
+<script>
+    function filterByCategory() {
+        document.getElementById("form").submit();
+    }
+</script>
+
 <body>
 
 <div layout:fragment="content">
     <h1>Note List</h1>
 
     <form>
-
         <p class="h3">Search by first title or content:</p>
         <input name="search" type="text">
         <input type="submit" class="btn-box-tool" th:value="Search"/>
+    </form>
+
+    <form id="form"  >
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Category</label>
+
+            <div class="col-sm-10">
+                <td>
+                    <select name="cate_id"  onchange="form.submit()">
+                        <option th:each="cat : ${categories}" th:value="${cat.id}"
+                        th:selected="(${cat.id}==${cate_id})"><span th:text="${cat.name}"></span></option>
+                    </select>
+                </td>
+            </div>
+        </div>
     </form>
 
     <br>
