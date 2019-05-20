@@ -18,7 +18,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    @RequestMapping(value = {"/login","/"} ,method = RequestMethod.GET)
     public ModelAndView login() {
         ModelAndView mv = new ModelAndView();
         mv.setViewName("user/login");
@@ -51,7 +51,7 @@ public class UserController {
         return mv;
     }
 
-    @RequestMapping(value = "/home/home",method = RequestMethod.GET)
+    @RequestMapping(value = "/home",method = RequestMethod.GET)
     public ModelAndView home(){
         ModelAndView mv = new ModelAndView();
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
