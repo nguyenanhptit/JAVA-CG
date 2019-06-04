@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
       layout:decorate="layout">
 <head>
     <meta charset="UTF-8">
-    <title>Edit</title>
 </head>
 <body>
 
-
 <div layout:fragment="content">
+
 
     <th:block th:if="${msg}">
         <p th:text="${msg}"></p>
@@ -25,6 +23,7 @@
         <!-- form start -->
         <form class="form-horizontal" th:action="@{/update-note}" th:object="${note}" method="post">
             <input type="hidden" name="id" th:field="*{id}">
+
             <div class="box-body">
 
                 <div class="form-group">
@@ -76,3 +75,5 @@
 </div>
 </body>
 </html>
+
+

@@ -9,6 +9,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service("noteservice")
@@ -19,6 +20,11 @@ public class NoteServiceImpl implements NoteService {
     @Override
     public Page<Note> findAll(Pageable pageable) {
         return noteRepository.findAll(pageable);
+    }
+
+    @Override
+    public List<Note> findAllList() {
+        return noteRepository.findAll();
     }
 
     public Optional<Note> findById(Long id) {

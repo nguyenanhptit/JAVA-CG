@@ -24,20 +24,20 @@
         <input type="submit" class="btn-box-tool" th:value="Search"/>
     </form>
 
-    <form id="form"  >
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Category</label>
+<!--    <form id="form"  >-->
+<!--        <div class="form-group">-->
+<!--            <label class="col-sm-4 control-label">Category</label>-->
 
-            <div class="col-sm-10">
-                <td>
-                    <select name="cate_id"  onchange="form.submit()">
-                        <option th:each="cat : ${categories}" th:value="${cat.id}"
-                        th:selected="(${cat.id}==${cate_id})"><span th:text="${cat.name}"></span></option>
-                    </select>
-                </td>
-            </div>
-        </div>
-    </form>
+<!--            <div class="col-sm-10">-->
+<!--                <td>-->
+<!--                    <select name="cate_id"  onchange="form.submit()">-->
+<!--                        <option th:each="cat : ${categories}" th:value="${cat.id}"-->
+<!--                        th:selected="(${cat.id}==${cate_id})"><span th:text="${cat.name}"></span></option>-->
+<!--                    </select>-->
+<!--                </td>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </form>-->
 
     <br>
     <br>
@@ -67,7 +67,7 @@
                                     <td th:text="${nt.tilte}"></td>
                                     <td th:text="${nt.content}"></td>
                                     <td><a th:text="${nt.category.name}"
-                                           th:href="@{/view-category/__${nt.category.id}__}"/></td>
+                                           th:href="@{#}"/></td>
 
                                     <td>
                                         <a type="submit" th:href="@{/edit-note/__${nt.id}__ }" class="btn btn-facebook">Edit</a>
@@ -89,14 +89,11 @@
                             <a th:href="@{'/notes'(page=${notes.number + 1})}" th:if="${notes.hasNext()}">Next</a>
                         </div>
                     </div>
-                    <!-- /.box-body -->
+
                 </div>
-                <!-- /.box -->
 
-
-                <!-- /.box -->
             </div>
-            <!-- /.col -->
+
         </div>
         <!-- /.row -->
     </section>

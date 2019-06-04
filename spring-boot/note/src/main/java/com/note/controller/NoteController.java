@@ -1,4 +1,4 @@
-package com.note.comtroller;
+package com.note.controller;
 
 import com.note.model.Category;
 import com.note.model.Note;
